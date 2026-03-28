@@ -117,7 +117,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#121212] font-body text-slate-100">
       <div className="relative min-h-screen bg-[linear-gradient(180deg,#1a1a1a_0%,#111111_100%)]">
-        <div className="pointer-events-none absolute inset-x-0 top-0 h-[420px] bg-[radial-gradient(circle_at_top,rgba(249,115,22,0.18),transparent_70%)]" />
+        <div className="pointer-events-none absolute left-1/2 top-0 h-[420px] w-[1200px] -translate-x-1/2 bg-[radial-gradient(circle_at_top,rgba(249,115,22,0.18),transparent_70%)]" />
         <div className="mx-auto flex min-h-screen max-w-7xl flex-col px-4 py-6 sm:px-6 lg:px-8">
           <header className="mb-3 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
             <div>
